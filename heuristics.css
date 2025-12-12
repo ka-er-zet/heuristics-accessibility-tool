@@ -1,5 +1,18 @@
 /* Heuristics Evaluation Tool - Custom Styles */
 
+/* Custom color scheme - purple theme matching logo */
+:root {
+    --pico-primary: hsl(280, 40%, 50%);
+    --pico-primary-hover: hsl(280, 40%, 45%);
+    --pico-primary-focus: hsla(280, 40%, 50%, 0.125);
+}
+
+[data-theme="dark"] {
+    --pico-primary: hsl(280, 45%, 65%);
+    --pico-primary-hover: hsl(280, 45%, 70%);
+    --pico-primary-focus: hsla(280, 45%, 65%, 0.125);
+}
+
 /* Main content width for better readability */
 main.container,
 footer.container {
