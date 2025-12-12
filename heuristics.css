@@ -313,7 +313,7 @@ article {
 article header {
     padding: 1.5rem 1.5rem 1rem 1.5rem;
     margin: 0;
-    background: var(--pico-card-background-color);
+    background: var(--pico-background-color);
     border-bottom: 1px solid var(--pico-muted-border-color);
 }
 
