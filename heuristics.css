@@ -9,7 +9,7 @@ header nav ul:first-child {
     flex: 1;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 header nav ul:first-child li:first-child {
@@ -19,6 +19,11 @@ header nav ul:first-child li:first-child {
 header nav ul:first-child img {
     height: 3rem;
     width: auto;
+}
+
+header {
+    border-bottom: 1px solid var(--pico-muted-border-color);
+    margin-bottom: 2rem;
 }
 
 header hgroup {
