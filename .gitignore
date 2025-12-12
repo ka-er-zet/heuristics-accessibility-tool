@@ -12,3 +12,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 *~
+
+# Development files
+parse_md.py
+heurystyki.md
