@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ewaluacja Heurystyk Dostępności</title>
+    <link rel="stylesheet" href="pico.min.css">
+    <link rel="stylesheet" href="heuristics.css">
+</head>
+
+<body>
+
+    <header class="container">
+        <nav>
+            <ul>
+                <li>
+                    <hgroup>
+                        <h1>Ewaluacja Heurystyk Dostępności</h1>
+                        <p>Na podstawie 10 Heurystyk Deque Systems</p>
+                    </hgroup>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <button id="theme-toggle" aria-label="Przełącz motyw">
+                        <svg id="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <!-- Moon icon (default for light mode) -->
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <form id="evaluation-form">
+            <div id="app">
+                <!-- Heuristics will be rendered here -->
+                <article aria-busy="true">Ładowanie danych...</article>
+            </div>
+        </form>
+    </main>
+
+    <footer class="container">
+        <article id="summary-section">
+            <header>
+                <h2>Podsumowanie Ewaluacji</h2>
+            </header>
+
+            <div class="summary-grid">
+                <!-- Score Stats -->
+                <div class="summary-card">
+                    <h3>Wynik Ewaluacji</h3>
+                    <div class="stat-large">
+                        <span id="total-score">0</span> / <span id="max-score">0</span>
+                    </div>
+                    <p class="stat-label">Punkty zdobyte / możliwe</p>
+                    <div class="progress-info">
+                        <span><strong><span id="answered-count">0</span> / <span id="total-count">0</span></strong>
+                            pytań ocenionych</span>
+                        <span><strong><span id="progress-percent">0</span>%</strong></span>
+                    </div>
+                    <progress id="progress-bar" max="100" value="0"></progress>
+
+                    <div class="score-breakdown">
+                        <div><span class="badge badge-positive" id="positive-count">0</span> Tak</div>
+                        <div><span class="badge badge-neutral" id="neutral-count">0</span> Częściowo</div>
+                        <div><span class="badge badge-negative" id="negative-count">0</span> Nie</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Per-Heuristic Breakdown -->
+            <details>
+                <summary><strong>Wyniki per heurystyka</strong></summary>
+                <div id="heuristic-breakdown" class="heuristic-breakdown">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </details>
+
+            <div class="action-buttons">
+                <button class="secondary" onclick="exportToCSV()">Eksportuj CSV</button>
+                <button class="secondary" onclick="exportToEARL()">Eksportuj JSON (EARL)</button>
+            </div>
+        </article>
+    </footer>
+
+    <footer class="container credits-footer">
+        <small>
+            <p>Autor: Marcin Krzanicki (KaErZet) | Licencja: <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+                    target="_blank" rel="noopener">CC BY-SA 4.0</a></p>
+            <p>Narzędzie inspirowane pracą Stefana Wajdy: <a href="https://lepszyweb.pl/blog2/10-heurystyk-dostepnosci"
+                    target="_blank" rel="noopener">10 Heurystyk Dostępności</a></p>
+        </small>
+    </footer>
+
+    <script src="export.js"></script>
+    <script src="heuristics_app.js"></script>
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        const html = document.documentElement;
+
+        // SVG paths for icons
+        const moonIcon = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>';
+        const sunIcon = '<circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>';
+
+        // Check for saved theme preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', currentTheme);
+        updateThemeIcon(currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+
+        function updateThemeIcon(theme) {
+            themeIcon.innerHTML = theme === 'light' ? moonIcon : sunIcon;
+        }
+    </script>
+</body>
+
+</html>
