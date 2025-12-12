@@ -1,12 +1,15 @@
 /* Heuristics Evaluation Tool - Custom Styles */
 
 /* Main content width for better readability */
-main.container {
+main.container,
+footer.container {
     max-width: 1200px;
 }
 
 @media (min-width: 1400px) {
-    main.container {
+
+    main.container,
+    footer.container {
         max-width: 1000px;
     }
 }
