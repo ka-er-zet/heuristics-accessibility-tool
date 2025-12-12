@@ -44,9 +44,7 @@
                 <article aria-busy="true">Ładowanie danych...</article>
             </div>
         </form>
-    </main>
 
-    <footer class="container">
         <article id="summary-section">
             <header>
                 <h2>Podsumowanie Ewaluacji</h2>
@@ -56,22 +54,23 @@
                 <!-- Score Stats -->
                 <div class="summary-card">
                     <h3>Wynik Ewaluacji</h3>
-                    <div class="stat-large">
+                    <h4 class="sr-only">Wynik punktowy</h4>
+                    <p class="stat-large">
                         <span id="total-score">0</span> / <span id="max-score">0</span>
-                    </div>
+                    </p>
                     <p class="stat-label">Punkty zdobyte / możliwe</p>
                     <div class="progress-info">
                         <span><strong><span id="answered-count">0</span> / <span id="total-count">0</span></strong>
                             pytań ocenionych</span>
                         <span><strong><span id="progress-percent">0</span>%</strong></span>
                     </div>
-                    <progress id="progress-bar" max="100" value="0"></progress>
+                    <progress id="progress-bar" max="100" value="0" aria-label="Postęp ewaluacji"></progress>
 
-                    <div class="score-breakdown">
-                        <div><span class="badge badge-positive" id="positive-count">0</span> Tak</div>
-                        <div><span class="badge badge-neutral" id="neutral-count">0</span> Częściowo</div>
-                        <div><span class="badge badge-negative" id="negative-count">0</span> Nie</div>
-                    </div>
+                    <ul class="score-breakdown">
+                        <li><span class="badge badge-positive" id="positive-count">0</span> Tak</li>
+                        <li><span class="badge badge-neutral" id="neutral-count">0</span> Częściowo</li>
+                        <li><span class="badge badge-negative" id="negative-count">0</span> Nie</li>
+                    </ul>
                 </div>
             </div>
 
@@ -88,7 +87,7 @@
                 <button class="secondary" onclick="exportToEARL()">Eksportuj JSON (EARL)</button>
             </div>
         </article>
-    </footer>
+    </main>
 
     <footer class="container credits-footer">
         <small>

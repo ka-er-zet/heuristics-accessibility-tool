@@ -1,0 +1,46 @@
+{
+    "counts": {
+        "ignored": 0,
+        "violation": 7,
+        "recommendation": 0,
+        "pass": 361,
+        "potentialviolation": 4,
+        "potentialrecommendation": 4,
+        "manual": 1,
+        "elements": 12,
+        "elementsViolation": 3,
+        "elementsViolationReview": 8
+    },
+    "startReport": 1765565992414,
+    "endReport": 1765566004866,
+    "toolID": "accessibility-checker-v4.0.9",
+    "policies": [
+        "IBM_Accessibility"
+    ],
+    "reportLevels": [
+        "violation",
+        "potentialviolation"
+    ],
+    "failLevels": [
+        "violation",
+        "potentialviolation"
+    ],
+    "scanID": "9a9baa5c-7f7f-4892-9b42-c32ca34e6b60",
+    "pageScanSummary": [
+        {
+            "label": "C_\\Users\\marci\\OneDrive\\Documents\\cos do kalendarza\\HeuristicsTool\\index.html",
+            "counts": {
+                "ignored": 0,
+                "elements": 12,
+                "elementsViolation": 3,
+                "elementsViolationReview": 8,
+                "violation": 7,
+                "potentialviolation": 4,
+                "recommendation": 0,
+                "potentialrecommendation": 4,
+                "manual": 1,
+                "pass": 361
+            }
+        }
+    ]
+}

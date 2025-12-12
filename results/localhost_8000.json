@@ -1,0 +1,3211 @@
+{
+    "results": [
+        {
+            "ruleId": "style_color_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/link[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 6,
+            "reasonId": "Potential_1",
+            "message": "Verify color is not used as the only visual means of conveying information",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<link href=\"pico.min.css\" rel=\"stylesheet\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_color_misuse.html#%7B%22message%22%3A%22Verify%20color%20is%20not%20used%20as%20the%20only%20visual%20means%20of%20conveying%20information%22%2C%22snippet%22%3A%22%3Clink%20href%3D%5C%22pico.min.css%5C%22%20rel%3D%5C%22stylesheet%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_color_misuse%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/header[1]/nav[1]/ul[2]/li[1]/button[1]",
+                "aria": "/document[1]/banner[1]/navigation[1]/list[2]/listitem[1]/button[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 712,
+                "top": 73,
+                "height": 38,
+                "width": 38
+            },
+            "snippet": "<button aria-label=\"Przełącz motyw\" id=\"theme-toggle\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Prze%C5%82%C4%85cz%20motyw%5C%22%20id%3D%5C%22theme-toggle%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/header[1]/nav[1]/ul[2]/li[1]/button[1]",
+                "aria": "/document[1]/banner[1]/navigation[1]/list[2]/listitem[1]/button[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 712,
+                "top": 73,
+                "height": 38,
+                "width": 38
+            },
+            "snippet": "<button aria-label=\"Przełącz motyw\" id=\"theme-toggle\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Prze%C5%82%C4%85cz%20motyw%5C%22%20id%3D%5C%22theme-toggle%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "form_submit_button_exists",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]",
+                "aria": "/document[1]/main[1]/form[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Potential_1",
+            "message": "Verify the <form> element has a submit button or an image button",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 239,
+                "height": 11708,
+                "width": 800
+            },
+            "snippet": "<form id=\"evaluation-form\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/form_submit_button_exists.html#%7B%22message%22%3A%22Verify%20the%20%3Cform%3E%20element%20has%20a%20submit%20button%20or%20an%20image%20button%22%2C%22snippet%22%3A%22%3Cform%20id%3D%5C%22evaluation-form%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22form_submit_button_exists%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[1]/header[1]/h2[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[1]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 27,
+                "top": 266,
+                "height": 37,
+                "width": 746
+            },
+            "snippet": "<h2>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Ch2%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[1]/div[1]/fieldset[1]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[1]/group[1]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 521,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"0\" data-heuristic-id=\"1\" value=\"1\" name=\"h1-c0\" id=\"h1-c0-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%220%5C%22%20data-heuristic-id%3D%5C%221%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h1-c0%5C%22%20id%3D%5C%22h1-c0-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[1]/div[1]/fieldset[2]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[1]/group[2]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 661,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"1\" data-heuristic-id=\"1\" value=\"1\" name=\"h1-c1\" id=\"h1-c1-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%221%5C%22%20data-heuristic-id%3D%5C%221%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h1-c1%5C%22%20id%3D%5C%22h1-c1-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[1]/div[1]/fieldset[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[1]/group[3]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 800,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"2\" data-heuristic-id=\"1\" value=\"1\" name=\"h1-c2\" id=\"h1-c2-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%222%5C%22%20data-heuristic-id%3D%5C%221%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h1-c2%5C%22%20id%3D%5C%22h1-c2-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[1]/div[1]/fieldset[4]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[1]/group[4]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 913,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"3\" data-heuristic-id=\"1\" value=\"1\" name=\"h1-c3\" id=\"h1-c3-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%223%5C%22%20data-heuristic-id%3D%5C%221%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h1-c3%5C%22%20id%3D%5C%22h1-c3-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[1]/div[1]/fieldset[5]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[1]/group[5]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 1025,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"4\" data-heuristic-id=\"1\" value=\"1\" name=\"h1-c4\" id=\"h1-c4-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%224%5C%22%20data-heuristic-id%3D%5C%221%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h1-c4%5C%22%20id%3D%5C%22h1-c4-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[1]/div[1]/fieldset[6]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[1]/group[6]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 1165,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"5\" data-heuristic-id=\"1\" value=\"1\" name=\"h1-c5\" id=\"h1-c5-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%225%5C%22%20data-heuristic-id%3D%5C%221%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h1-c5%5C%22%20id%3D%5C%22h1-c5-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[1]/div[1]/fieldset[7]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[1]/group[7]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 1304,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"6\" data-heuristic-id=\"1\" value=\"1\" name=\"h1-c6\" id=\"h1-c6-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%226%5C%22%20data-heuristic-id%3D%5C%221%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h1-c6%5C%22%20id%3D%5C%22h1-c6-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[1]/div[1]/fieldset[8]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[1]/group[8]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 1444,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"7\" data-heuristic-id=\"1\" value=\"1\" name=\"h1-c7\" id=\"h1-c7-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%227%5C%22%20data-heuristic-id%3D%5C%221%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h1-c7%5C%22%20id%3D%5C%22h1-c7-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[2]/header[1]/h2[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[2]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 27,
+                "top": 1590,
+                "height": 37,
+                "width": 746
+            },
+            "snippet": "<h2>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Ch2%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[2]/div[1]/fieldset[1]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[2]/group[1]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 1846,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"0\" data-heuristic-id=\"2\" value=\"1\" name=\"h2-c0\" id=\"h2-c0-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%220%5C%22%20data-heuristic-id%3D%5C%222%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h2-c0%5C%22%20id%3D%5C%22h2-c0-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[2]/div[1]/fieldset[2]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[2]/group[2]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 1958,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"1\" data-heuristic-id=\"2\" value=\"1\" name=\"h2-c1\" id=\"h2-c1-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%221%5C%22%20data-heuristic-id%3D%5C%222%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h2-c1%5C%22%20id%3D%5C%22h2-c1-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[2]/div[1]/fieldset[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[2]/group[3]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 2071,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"2\" data-heuristic-id=\"2\" value=\"1\" name=\"h2-c2\" id=\"h2-c2-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%222%5C%22%20data-heuristic-id%3D%5C%222%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h2-c2%5C%22%20id%3D%5C%22h2-c2-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[2]/div[1]/fieldset[4]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[2]/group[4]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 2183,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"3\" data-heuristic-id=\"2\" value=\"1\" name=\"h2-c3\" id=\"h2-c3-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%223%5C%22%20data-heuristic-id%3D%5C%222%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h2-c3%5C%22%20id%3D%5C%22h2-c3-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[2]/div[1]/fieldset[5]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[2]/group[5]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 2296,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"4\" data-heuristic-id=\"2\" value=\"1\" name=\"h2-c4\" id=\"h2-c4-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%224%5C%22%20data-heuristic-id%3D%5C%222%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h2-c4%5C%22%20id%3D%5C%22h2-c4-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[2]/div[1]/fieldset[6]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[2]/group[6]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 2435,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"5\" data-heuristic-id=\"2\" value=\"1\" name=\"h2-c5\" id=\"h2-c5-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%225%5C%22%20data-heuristic-id%3D%5C%222%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h2-c5%5C%22%20id%3D%5C%22h2-c5-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[2]/div[1]/fieldset[7]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[2]/group[7]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 2548,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"6\" data-heuristic-id=\"2\" value=\"1\" name=\"h2-c6\" id=\"h2-c6-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%226%5C%22%20data-heuristic-id%3D%5C%222%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h2-c6%5C%22%20id%3D%5C%22h2-c6-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[3]/header[1]/h2[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[3]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 27,
+                "top": 2694,
+                "height": 37,
+                "width": 746
+            },
+            "snippet": "<h2>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Ch2%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[3]/div[1]/fieldset[1]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[3]/group[1]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 2949,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"0\" data-heuristic-id=\"3\" value=\"1\" name=\"h3-c0\" id=\"h3-c0-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%220%5C%22%20data-heuristic-id%3D%5C%223%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h3-c0%5C%22%20id%3D%5C%22h3-c0-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[3]/div[1]/fieldset[2]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[3]/group[2]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 3089,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"1\" data-heuristic-id=\"3\" value=\"1\" name=\"h3-c1\" id=\"h3-c1-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%221%5C%22%20data-heuristic-id%3D%5C%223%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h3-c1%5C%22%20id%3D%5C%22h3-c1-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[3]/div[1]/fieldset[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[3]/group[3]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 3228,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"2\" data-heuristic-id=\"3\" value=\"1\" name=\"h3-c2\" id=\"h3-c2-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%222%5C%22%20data-heuristic-id%3D%5C%223%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h3-c2%5C%22%20id%3D%5C%22h3-c2-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[3]/div[1]/fieldset[4]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[3]/group[4]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 3368,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"3\" data-heuristic-id=\"3\" value=\"1\" name=\"h3-c3\" id=\"h3-c3-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%223%5C%22%20data-heuristic-id%3D%5C%223%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h3-c3%5C%22%20id%3D%5C%22h3-c3-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[3]/div[1]/fieldset[5]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[3]/group[5]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 3507,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"4\" data-heuristic-id=\"3\" value=\"1\" name=\"h3-c4\" id=\"h3-c4-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%224%5C%22%20data-heuristic-id%3D%5C%223%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h3-c4%5C%22%20id%3D%5C%22h3-c4-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[3]/div[1]/fieldset[6]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[3]/group[6]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 3647,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"5\" data-heuristic-id=\"3\" value=\"1\" name=\"h3-c5\" id=\"h3-c5-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%225%5C%22%20data-heuristic-id%3D%5C%223%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h3-c5%5C%22%20id%3D%5C%22h3-c5-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[3]/div[1]/fieldset[7]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[3]/group[7]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 3759,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"6\" data-heuristic-id=\"3\" value=\"1\" name=\"h3-c6\" id=\"h3-c6-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%226%5C%22%20data-heuristic-id%3D%5C%223%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h3-c6%5C%22%20id%3D%5C%22h3-c6-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[4]/header[1]/h2[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[4]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 27,
+                "top": 3906,
+                "height": 37,
+                "width": 746
+            },
+            "snippet": "<h2>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Ch2%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[4]/div[1]/fieldset[1]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[4]/group[1]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 4107,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"0\" data-heuristic-id=\"4\" value=\"1\" name=\"h4-c0\" id=\"h4-c0-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%220%5C%22%20data-heuristic-id%3D%5C%224%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h4-c0%5C%22%20id%3D%5C%22h4-c0-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[4]/div[1]/fieldset[2]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[4]/group[2]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 4219,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"1\" data-heuristic-id=\"4\" value=\"1\" name=\"h4-c1\" id=\"h4-c1-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%221%5C%22%20data-heuristic-id%3D%5C%224%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h4-c1%5C%22%20id%3D%5C%22h4-c1-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[4]/div[1]/fieldset[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[4]/group[3]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 4359,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"2\" data-heuristic-id=\"4\" value=\"1\" name=\"h4-c2\" id=\"h4-c2-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%222%5C%22%20data-heuristic-id%3D%5C%224%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h4-c2%5C%22%20id%3D%5C%22h4-c2-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[4]/div[1]/fieldset[4]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[4]/group[4]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 4498,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"3\" data-heuristic-id=\"4\" value=\"1\" name=\"h4-c3\" id=\"h4-c3-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%223%5C%22%20data-heuristic-id%3D%5C%224%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h4-c3%5C%22%20id%3D%5C%22h4-c3-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[4]/div[1]/fieldset[5]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[4]/group[5]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 4638,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"4\" data-heuristic-id=\"4\" value=\"1\" name=\"h4-c4\" id=\"h4-c4-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%224%5C%22%20data-heuristic-id%3D%5C%224%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h4-c4%5C%22%20id%3D%5C%22h4-c4-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[4]/div[1]/fieldset[6]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[4]/group[6]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 4750,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"5\" data-heuristic-id=\"4\" value=\"1\" name=\"h4-c5\" id=\"h4-c5-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%225%5C%22%20data-heuristic-id%3D%5C%224%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h4-c5%5C%22%20id%3D%5C%22h4-c5-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[4]/div[1]/fieldset[7]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[4]/group[7]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 4863,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"6\" data-heuristic-id=\"4\" value=\"1\" name=\"h4-c6\" id=\"h4-c6-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%226%5C%22%20data-heuristic-id%3D%5C%224%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h4-c6%5C%22%20id%3D%5C%22h4-c6-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[5]/header[1]/h2[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[5]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 27,
+                "top": 5009,
+                "height": 37,
+                "width": 746
+            },
+            "snippet": "<h2>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Ch2%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[5]/div[1]/fieldset[1]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[5]/group[1]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 5265,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"0\" data-heuristic-id=\"5\" value=\"1\" name=\"h5-c0\" id=\"h5-c0-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%220%5C%22%20data-heuristic-id%3D%5C%225%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h5-c0%5C%22%20id%3D%5C%22h5-c0-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[5]/div[1]/fieldset[2]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[5]/group[2]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 5404,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"1\" data-heuristic-id=\"5\" value=\"1\" name=\"h5-c1\" id=\"h5-c1-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%221%5C%22%20data-heuristic-id%3D%5C%225%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h5-c1%5C%22%20id%3D%5C%22h5-c1-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[5]/div[1]/fieldset[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[5]/group[3]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 5544,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"2\" data-heuristic-id=\"5\" value=\"1\" name=\"h5-c2\" id=\"h5-c2-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%222%5C%22%20data-heuristic-id%3D%5C%225%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h5-c2%5C%22%20id%3D%5C%22h5-c2-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[5]/div[1]/fieldset[4]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[5]/group[4]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 5683,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"3\" data-heuristic-id=\"5\" value=\"1\" name=\"h5-c3\" id=\"h5-c3-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%223%5C%22%20data-heuristic-id%3D%5C%225%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h5-c3%5C%22%20id%3D%5C%22h5-c3-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[5]/div[1]/fieldset[5]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[5]/group[5]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 5823,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"4\" data-heuristic-id=\"5\" value=\"1\" name=\"h5-c4\" id=\"h5-c4-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%224%5C%22%20data-heuristic-id%3D%5C%225%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h5-c4%5C%22%20id%3D%5C%22h5-c4-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[5]/div[1]/fieldset[6]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[5]/group[6]/radio[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 5962,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"5\" data-heuristic-id=\"5\" value=\"1\" name=\"h5-c5\" id=\"h5-c5-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%225%5C%22%20data-heuristic-id%3D%5C%225%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h5-c5%5C%22%20id%3D%5C%22h5-c5-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[5]/div[1]/fieldset[7]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[5]/group[7]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 6075,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"6\" data-heuristic-id=\"5\" value=\"1\" name=\"h5-c6\" id=\"h5-c6-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%226%5C%22%20data-heuristic-id%3D%5C%225%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h5-c6%5C%22%20id%3D%5C%22h5-c6-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[6]/header[1]/h2[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[6]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 27,
+                "top": 6221,
+                "height": 37,
+                "width": 746
+            },
+            "snippet": "<h2>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Ch2%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[6]/div[1]/fieldset[1]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[6]/group[1]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 6503,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"0\" data-heuristic-id=\"6\" value=\"1\" name=\"h6-c0\" id=\"h6-c0-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%220%5C%22%20data-heuristic-id%3D%5C%226%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h6-c0%5C%22%20id%3D%5C%22h6-c0-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[6]/div[1]/fieldset[2]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[6]/group[2]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 6643,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"1\" data-heuristic-id=\"6\" value=\"1\" name=\"h6-c1\" id=\"h6-c1-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%221%5C%22%20data-heuristic-id%3D%5C%226%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h6-c1%5C%22%20id%3D%5C%22h6-c1-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[6]/div[1]/fieldset[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[6]/group[3]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 6782,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"2\" data-heuristic-id=\"6\" value=\"1\" name=\"h6-c2\" id=\"h6-c2-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%222%5C%22%20data-heuristic-id%3D%5C%226%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h6-c2%5C%22%20id%3D%5C%22h6-c2-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[6]/div[1]/fieldset[4]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[6]/group[4]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 6922,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"3\" data-heuristic-id=\"6\" value=\"1\" name=\"h6-c3\" id=\"h6-c3-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%223%5C%22%20data-heuristic-id%3D%5C%226%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h6-c3%5C%22%20id%3D%5C%22h6-c3-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[6]/div[1]/fieldset[5]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[6]/group[5]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 7034,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"4\" data-heuristic-id=\"6\" value=\"1\" name=\"h6-c4\" id=\"h6-c4-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%224%5C%22%20data-heuristic-id%3D%5C%226%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h6-c4%5C%22%20id%3D%5C%22h6-c4-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[6]/div[1]/fieldset[6]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[6]/group[6]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 7147,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"5\" data-heuristic-id=\"6\" value=\"1\" name=\"h6-c5\" id=\"h6-c5-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%225%5C%22%20data-heuristic-id%3D%5C%226%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h6-c5%5C%22%20id%3D%5C%22h6-c5-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[6]/div[1]/fieldset[7]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[6]/group[7]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 7259,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"6\" data-heuristic-id=\"6\" value=\"1\" name=\"h6-c6\" id=\"h6-c6-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%226%5C%22%20data-heuristic-id%3D%5C%226%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h6-c6%5C%22%20id%3D%5C%22h6-c6-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[7]/header[1]/h2[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[7]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 27,
+                "top": 7406,
+                "height": 37,
+                "width": 746
+            },
+            "snippet": "<h2>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Ch2%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[7]/div[1]/fieldset[1]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[7]/group[1]/radio[1]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 7661,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"0\" data-heuristic-id=\"7\" value=\"1\" name=\"h7-c0\" id=\"h7-c0-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%220%5C%22%20data-heuristic-id%3D%5C%227%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h7-c0%5C%22%20id%3D%5C%22h7-c0-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[7]/div[1]/fieldset[2]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[7]/group[2]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 7774,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"1\" data-heuristic-id=\"7\" value=\"1\" name=\"h7-c1\" id=\"h7-c1-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%221%5C%22%20data-heuristic-id%3D%5C%227%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h7-c1%5C%22%20id%3D%5C%22h7-c1-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[7]/div[1]/fieldset[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[7]/group[3]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 7886,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"2\" data-heuristic-id=\"7\" value=\"1\" name=\"h7-c2\" id=\"h7-c2-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%222%5C%22%20data-heuristic-id%3D%5C%227%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h7-c2%5C%22%20id%3D%5C%22h7-c2-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[7]/div[1]/fieldset[4]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[7]/group[4]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 8026,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"3\" data-heuristic-id=\"7\" value=\"1\" name=\"h7-c3\" id=\"h7-c3-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%223%5C%22%20data-heuristic-id%3D%5C%227%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h7-c3%5C%22%20id%3D%5C%22h7-c3-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[7]/div[1]/fieldset[5]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[7]/group[5]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 8138,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"4\" data-heuristic-id=\"7\" value=\"1\" name=\"h7-c4\" id=\"h7-c4-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%224%5C%22%20data-heuristic-id%3D%5C%227%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h7-c4%5C%22%20id%3D%5C%22h7-c4-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[7]/div[1]/fieldset[6]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[7]/group[6]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 8251,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"5\" data-heuristic-id=\"7\" value=\"1\" name=\"h7-c5\" id=\"h7-c5-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%225%5C%22%20data-heuristic-id%3D%5C%227%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h7-c5%5C%22%20id%3D%5C%22h7-c5-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[7]/div[1]/fieldset[7]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[7]/group[7]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 8363,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"6\" data-heuristic-id=\"7\" value=\"1\" name=\"h7-c6\" id=\"h7-c6-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%226%5C%22%20data-heuristic-id%3D%5C%227%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h7-c6%5C%22%20id%3D%5C%22h7-c6-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[8]/header[1]/h2[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[8]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 27,
+                "top": 8509,
+                "height": 37,
+                "width": 746
+            },
+            "snippet": "<h2>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Ch2%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[8]/div[1]/fieldset[1]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[8]/group[1]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 8792,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"0\" data-heuristic-id=\"8\" value=\"1\" name=\"h8-c0\" id=\"h8-c0-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%220%5C%22%20data-heuristic-id%3D%5C%228%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h8-c0%5C%22%20id%3D%5C%22h8-c0-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[8]/div[1]/fieldset[2]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[8]/group[2]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 8904,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"1\" data-heuristic-id=\"8\" value=\"1\" name=\"h8-c1\" id=\"h8-c1-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%221%5C%22%20data-heuristic-id%3D%5C%228%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h8-c1%5C%22%20id%3D%5C%22h8-c1-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[8]/div[1]/fieldset[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[8]/group[3]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 9017,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"2\" data-heuristic-id=\"8\" value=\"1\" name=\"h8-c2\" id=\"h8-c2-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%222%5C%22%20data-heuristic-id%3D%5C%228%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h8-c2%5C%22%20id%3D%5C%22h8-c2-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[8]/div[1]/fieldset[4]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[8]/group[4]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 9129,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"3\" data-heuristic-id=\"8\" value=\"1\" name=\"h8-c3\" id=\"h8-c3-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%223%5C%22%20data-heuristic-id%3D%5C%228%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h8-c3%5C%22%20id%3D%5C%22h8-c3-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[8]/div[1]/fieldset[5]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[8]/group[5]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 9242,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"4\" data-heuristic-id=\"8\" value=\"1\" name=\"h8-c4\" id=\"h8-c4-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%224%5C%22%20data-heuristic-id%3D%5C%228%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h8-c4%5C%22%20id%3D%5C%22h8-c4-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[8]/div[1]/fieldset[6]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[8]/group[6]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 9381,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"5\" data-heuristic-id=\"8\" value=\"1\" name=\"h8-c5\" id=\"h8-c5-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%225%5C%22%20data-heuristic-id%3D%5C%228%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h8-c5%5C%22%20id%3D%5C%22h8-c5-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[8]/div[1]/fieldset[7]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[8]/group[7]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 9494,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"6\" data-heuristic-id=\"8\" value=\"1\" name=\"h8-c6\" id=\"h8-c6-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%226%5C%22%20data-heuristic-id%3D%5C%228%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h8-c6%5C%22%20id%3D%5C%22h8-c6-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[9]/header[1]/h2[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[9]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 27,
+                "top": 9640,
+                "height": 37,
+                "width": 746
+            },
+            "snippet": "<h2>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Ch2%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[9]/div[1]/fieldset[1]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[9]/group[1]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 9896,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"0\" data-heuristic-id=\"9\" value=\"1\" name=\"h9-c0\" id=\"h9-c0-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%220%5C%22%20data-heuristic-id%3D%5C%229%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h9-c0%5C%22%20id%3D%5C%22h9-c0-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[9]/div[1]/fieldset[2]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[9]/group[2]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 10008,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"1\" data-heuristic-id=\"9\" value=\"1\" name=\"h9-c1\" id=\"h9-c1-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%221%5C%22%20data-heuristic-id%3D%5C%229%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h9-c1%5C%22%20id%3D%5C%22h9-c1-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[9]/div[1]/fieldset[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[9]/group[3]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 10148,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"2\" data-heuristic-id=\"9\" value=\"1\" name=\"h9-c2\" id=\"h9-c2-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%222%5C%22%20data-heuristic-id%3D%5C%229%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h9-c2%5C%22%20id%3D%5C%22h9-c2-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[9]/div[1]/fieldset[4]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[9]/group[4]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 10260,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"3\" data-heuristic-id=\"9\" value=\"1\" name=\"h9-c3\" id=\"h9-c3-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%223%5C%22%20data-heuristic-id%3D%5C%229%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h9-c3%5C%22%20id%3D%5C%22h9-c3-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[9]/div[1]/fieldset[5]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[9]/group[5]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 10373,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"4\" data-heuristic-id=\"9\" value=\"1\" name=\"h9-c4\" id=\"h9-c4-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%224%5C%22%20data-heuristic-id%3D%5C%229%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h9-c4%5C%22%20id%3D%5C%22h9-c4-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[9]/div[1]/fieldset[6]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[9]/group[6]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 10512,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"5\" data-heuristic-id=\"9\" value=\"1\" name=\"h9-c5\" id=\"h9-c5-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%225%5C%22%20data-heuristic-id%3D%5C%229%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h9-c5%5C%22%20id%3D%5C%22h9-c5-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[9]/div[1]/fieldset[7]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[9]/group[7]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 10652,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"6\" data-heuristic-id=\"9\" value=\"1\" name=\"h9-c6\" id=\"h9-c6-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%226%5C%22%20data-heuristic-id%3D%5C%229%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h9-c6%5C%22%20id%3D%5C%22h9-c6-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[10]/div[1]/fieldset[1]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[10]/group[1]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 11053,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"0\" data-heuristic-id=\"10\" value=\"1\" name=\"h10-c0\" id=\"h10-c0-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%220%5C%22%20data-heuristic-id%3D%5C%2210%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h10-c0%5C%22%20id%3D%5C%22h10-c0-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[10]/div[1]/fieldset[2]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[10]/group[2]/radio[1]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 11166,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"1\" data-heuristic-id=\"10\" value=\"1\" name=\"h10-c1\" id=\"h10-c1-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%221%5C%22%20data-heuristic-id%3D%5C%2210%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h10-c1%5C%22%20id%3D%5C%22h10-c1-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[10]/div[1]/fieldset[3]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[10]/group[3]/radio[1]"
+            },
+            "ruleTime": 4,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 11305,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"2\" data-heuristic-id=\"10\" value=\"1\" name=\"h10-c2\" id=\"h10-c2-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%222%5C%22%20data-heuristic-id%3D%5C%2210%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h10-c2%5C%22%20id%3D%5C%22h10-c2-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[10]/div[1]/fieldset[4]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[10]/group[4]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 11445,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"3\" data-heuristic-id=\"10\" value=\"1\" name=\"h10-c3\" id=\"h10-c3-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%223%5C%22%20data-heuristic-id%3D%5C%2210%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h10-c3%5C%22%20id%3D%5C%22h10-c3-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[10]/div[1]/fieldset[5]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[10]/group[5]/radio[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 11584,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"4\" data-heuristic-id=\"10\" value=\"1\" name=\"h10-c4\" id=\"h10-c4-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%224%5C%22%20data-heuristic-id%3D%5C%2210%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h10-c4%5C%22%20id%3D%5C%22h10-c4-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[10]/div[1]/fieldset[6]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[10]/group[6]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 11724,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"5\" data-heuristic-id=\"10\" value=\"1\" name=\"h10-c5\" id=\"h10-c5-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%225%5C%22%20data-heuristic-id%3D%5C%2210%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h10-c5%5C%22%20id%3D%5C%22h10-c5-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[10]/div[1]/fieldset[7]/div[1]/div[1]/input[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[10]/group[7]/radio[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 57,
+                "top": 11863,
+                "height": 23,
+                "width": 23
+            },
+            "snippet": "<input data-checkpoint-index=\"6\" data-heuristic-id=\"10\" value=\"1\" name=\"h10-c6\" id=\"h10-c6-1\" type=\"radio\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cinput%20data-checkpoint-index%3D%5C%226%5C%22%20data-heuristic-id%3D%5C%2210%5C%22%20value%3D%5C%221%5C%22%20name%3D%5C%22h10-c6%5C%22%20id%3D%5C%22h10-c6-1%5C%22%20type%3D%5C%22radio%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_contentinfo_single",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]",
+                "aria": "/document[1]/contentinfo[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"contentinfo\" role found on the page",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 12014,
+                "height": 676,
+                "width": 800
+            },
+            "snippet": "<footer class=\"container\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/aria_contentinfo_single.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22contentinfo%5C%22%20role%20found%20on%20the%20page%22%2C%22snippet%22%3A%22%3Cfooter%20class%3D%5C%22container%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_contentinfo_single%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_contentinfo_label_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]",
+                "aria": "/document[1]/contentinfo[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_label_not_unique",
+            "message": "Multiple elements with \"contentinfo\" role do not have unique labels",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 12014,
+                "height": 676,
+                "width": 800
+            },
+            "snippet": "<footer class=\"container\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/aria_contentinfo_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22contentinfo%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cfooter%20class%3D%5C%22container%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_contentinfo_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_landmark_name_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]",
+                "aria": "/document[1]/contentinfo[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_label_not_unique",
+            "message": "Multiple elements with \"contentinfo\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+            "messageArgs": [
+                "contentinfo",
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 12014,
+                "height": 676,
+                "width": 800
+            },
+            "snippet": "<footer class=\"container\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22contentinfo%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cfooter%20class%3D%5C%22container%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22contentinfo%22%2C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/div[1]/div[1]/div[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text '0 / 71' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "0 / 71"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 56,
+                "top": 12211,
+                "height": 36,
+                "width": 688
+            },
+            "snippet": "<div class=\"stat-large\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'0%20%2F%2071'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22stat-large%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%220%20%2F%2071%22%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/div[1]/div[1]/progress[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/progressbar[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <progress> has no associated label",
+            "messageArgs": [
+                "progress"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 56,
+                "top": 12330,
+                "height": 8,
+                "width": 688
+            },
+            "snippet": "<progress value=\"0\" max=\"100\" id=\"progress-bar\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cprogress%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cprogress%20value%3D%5C%220%5C%22%20max%3D%5C%22100%5C%22%20id%3D%5C%22progress-bar%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22progress%22%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[1]/div[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 12560,
+                "height": 27,
+                "width": 705
+            },
+            "snippet": "<div class=\"heuristic-title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22heuristic-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[1]/progress[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]/progressbar[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <progress> has no associated label",
+            "messageArgs": [
+                "progress"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 12634,
+                "height": 6,
+                "width": 705
+            },
+            "snippet": "<progress value=\"0\" max=\"100\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cprogress%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cprogress%20value%3D%5C%220%5C%22%20max%3D%5C%22100%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22progress%22%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[2]/div[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 12719,
+                "height": 27,
+                "width": 705
+            },
+            "snippet": "<div class=\"heuristic-title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22heuristic-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[2]/progress[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]/progressbar[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <progress> has no associated label",
+            "messageArgs": [
+                "progress"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 12792,
+                "height": 6,
+                "width": 705
+            },
+            "snippet": "<progress value=\"0\" max=\"100\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cprogress%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cprogress%20value%3D%5C%220%5C%22%20max%3D%5C%22100%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22progress%22%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[3]/div[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 12877,
+                "height": 27,
+                "width": 705
+            },
+            "snippet": "<div class=\"heuristic-title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22heuristic-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[3]/progress[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]/progressbar[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <progress> has no associated label",
+            "messageArgs": [
+                "progress"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 12950,
+                "height": 6,
+                "width": 705
+            },
+            "snippet": "<progress value=\"0\" max=\"100\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cprogress%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cprogress%20value%3D%5C%220%5C%22%20max%3D%5C%22100%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22progress%22%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[4]/div[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13035,
+                "height": 27,
+                "width": 705
+            },
+            "snippet": "<div class=\"heuristic-title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22heuristic-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[4]/progress[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]/progressbar[4]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <progress> has no associated label",
+            "messageArgs": [
+                "progress"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13108,
+                "height": 6,
+                "width": 705
+            },
+            "snippet": "<progress value=\"0\" max=\"100\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cprogress%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cprogress%20value%3D%5C%220%5C%22%20max%3D%5C%22100%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22progress%22%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[5]/div[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13193,
+                "height": 27,
+                "width": 705
+            },
+            "snippet": "<div class=\"heuristic-title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22heuristic-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[5]/progress[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]/progressbar[5]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <progress> has no associated label",
+            "messageArgs": [
+                "progress"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13266,
+                "height": 6,
+                "width": 705
+            },
+            "snippet": "<progress value=\"0\" max=\"100\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cprogress%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cprogress%20value%3D%5C%220%5C%22%20max%3D%5C%22100%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22progress%22%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[6]/div[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13351,
+                "height": 27,
+                "width": 705
+            },
+            "snippet": "<div class=\"heuristic-title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22heuristic-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[6]/progress[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]/progressbar[6]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <progress> has no associated label",
+            "messageArgs": [
+                "progress"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13424,
+                "height": 6,
+                "width": 705
+            },
+            "snippet": "<progress value=\"0\" max=\"100\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cprogress%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cprogress%20value%3D%5C%220%5C%22%20max%3D%5C%22100%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22progress%22%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[7]/div[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13509,
+                "height": 27,
+                "width": 705
+            },
+            "snippet": "<div class=\"heuristic-title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22heuristic-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[7]/progress[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]/progressbar[7]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <progress> has no associated label",
+            "messageArgs": [
+                "progress"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13582,
+                "height": 6,
+                "width": 705
+            },
+            "snippet": "<progress value=\"0\" max=\"100\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cprogress%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cprogress%20value%3D%5C%220%5C%22%20max%3D%5C%22100%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22progress%22%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[8]/div[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13667,
+                "height": 27,
+                "width": 705
+            },
+            "snippet": "<div class=\"heuristic-title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22heuristic-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[8]/progress[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]/progressbar[8]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <progress> has no associated label",
+            "messageArgs": [
+                "progress"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13740,
+                "height": 6,
+                "width": 705
+            },
+            "snippet": "<progress value=\"0\" max=\"100\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cprogress%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cprogress%20value%3D%5C%220%5C%22%20max%3D%5C%22100%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22progress%22%5D%7D"
+        },
+        {
+            "ruleId": "list_markup_review",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[9]/div[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_list",
+            "message": "Verify this is a list and if so, modify to use proper HTML elements for the list",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13825,
+                "height": 27,
+                "width": 705
+            },
+            "snippet": "<div class=\"heuristic-title\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/list_markup_review.html#%7B%22message%22%3A%22Verify%20this%20is%20a%20list%20and%20if%20so%2C%20modify%20to%20use%20proper%20HTML%20elements%20for%20the%20list%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22heuristic-title%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_list%22%2C%22ruleId%22%3A%22list_markup_review%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[9]/progress[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]/progressbar[9]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <progress> has no associated label",
+            "messageArgs": [
+                "progress"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 13899,
+                "height": 6,
+                "width": 705
+            },
+            "snippet": "<progress value=\"0\" max=\"100\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cprogress%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cprogress%20value%3D%5C%220%5C%22%20max%3D%5C%22100%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22progress%22%5D%7D"
+        },
+        {
+            "ruleId": "input_label_exists",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/details[1]/div[1]/div[10]/progress[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/group[1]/progressbar[10]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Form control element <progress> has no associated label",
+            "messageArgs": [
+                "progress"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 49,
+                "top": 14057,
+                "height": 6,
+                "width": 705
+            },
+            "snippet": "<progress value=\"0\" max=\"100\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cprogress%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cprogress%20value%3D%5C%220%5C%22%20max%3D%5C%22100%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22progress%22%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/div[2]/button[1]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/button[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 400,
+                "top": 12551,
+                "height": 56,
+                "width": 149
+            },
+            "snippet": "<button onclick=\"exportToCSV()\" class=\"secondary\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20onclick%3D%5C%22exportToCSV()%5C%22%20class%3D%5C%22secondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[1]/article[1]/div[2]/button[2]",
+                "aria": "/document[1]/contentinfo[1]/article[1]/button[2]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 557,
+                "top": 12551,
+                "height": 56,
+                "width": 216
+            },
+            "snippet": "<button onclick=\"exportToEARL()\" class=\"secondary\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Cbutton%20onclick%3D%5C%22exportToEARL()%5C%22%20class%3D%5C%22secondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_contentinfo_single",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[2]",
+                "aria": "/document[1]/contentinfo[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Multiple elements with \"contentinfo\" role found on the page",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 12689,
+                "height": 159,
+                "width": 800
+            },
+            "snippet": "<footer class=\"container credits-footer\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/aria_contentinfo_single.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22contentinfo%5C%22%20role%20found%20on%20the%20page%22%2C%22snippet%22%3A%22%3Cfooter%20class%3D%5C%22container%20credits-footer%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_contentinfo_single%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_contentinfo_label_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[2]",
+                "aria": "/document[1]/contentinfo[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_label_not_unique",
+            "message": "Multiple elements with \"contentinfo\" role do not have unique labels",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 12689,
+                "height": 159,
+                "width": 800
+            },
+            "snippet": "<footer class=\"container credits-footer\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/aria_contentinfo_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22contentinfo%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cfooter%20class%3D%5C%22container%20credits-footer%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_contentinfo_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_landmark_name_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[2]",
+                "aria": "/document[1]/contentinfo[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_label_not_unique",
+            "message": "Multiple elements with \"contentinfo\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+            "messageArgs": [
+                "contentinfo",
+                ""
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 12689,
+                "height": 159,
+                "width": 800
+            },
+            "snippet": "<footer class=\"container credits-footer\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22contentinfo%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cfooter%20class%3D%5C%22container%20credits-footer%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22contentinfo%22%2C%22%22%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[2]/small[1]/p[2]/a[1]",
+                "aria": "/document[1]/contentinfo[2]/paragraph[2]/link[1]"
+            },
+            "ruleTime": 3,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 524,
+                "top": 12759,
+                "height": 20,
+                "width": 172
+            },
+            "snippet": "<a rel=\"noopener\" target=\"_blank\" href=\"https://lepszyweb.pl/blog2/10-heurystyk-dostepnosci\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%5C%22%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Flepszyweb.pl%2Fblog2%2F10-heurystyk-dostepnosci%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "style_focus_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/footer[2]/small[1]/p[3]/a[1]",
+                "aria": "/document[1]/contentinfo[2]/paragraph[3]/link[1]"
+            },
+            "ruleTime": 2,
+            "reasonId": "potential_focus_not_visible",
+            "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 524,
+                "top": 12786,
+                "height": 20,
+                "width": 86
+            },
+            "snippet": "<a rel=\"noopener\" target=\"_blank\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/style_focus_visible.html#%7B%22message%22%3A%22Check%20the%20keyboard%20focus%20indicator%20is%20visible%20when%20using%20CSS%20declaration%20for%20'border'%20or%20'outline'%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noopener%5C%22%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F4.0%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_focus_not_visible%22%2C%22ruleId%22%3A%22style_focus_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        }
+    ],
+    "numExecuted": 7085,
+    "ruleTime": 3133,
+    "nls": {
+        "style_color_misuse": {
+            "0": "Combine color and descriptive markup to convey information",
+            "Potential_1": "Verify color is not used as the only visual means of conveying information"
+        },
+        "style_focus_visible": {
+            "0": "The keyboard focus indicator should be visible when default border or outline is modified by CSS",
+            "potential_focus_not_visible": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'"
+        },
+        "input_label_exists": {
+            "0": "Each form control must have an associated label",
+            "Fail_1": "Form control element <{0}> has no associated label"
+        },
+        "input_label_visible": {
+            "0": "An input element must have an associated visible label",
+            "potential_no_label": "The input element does not have an associated visible label"
+        },
+        "form_submit_button_exists": {
+            "0": "A <form> element should have a submit button or an image button",
+            "Potential_1": "Verify the <form> element has a submit button or an image button"
+        },
+        "list_markup_review": {
+            "0": "Proper HTML elements should be used to create a list",
+            "potential_list": "Verify this is a list and if so, modify to use proper HTML elements for the list"
+        },
+        "aria_contentinfo_single": {
+            "0": "A page, document, or application should only have one element with \"contentinfo\" role",
+            "Fail_1": "Multiple elements with \"contentinfo\" role found on the page"
+        },
+        "aria_contentinfo_label_unique": {
+            "0": "Each element with \"contentinfo\" role must have a unique label that describes its purpose",
+            "fail_label_not_unique": "Multiple elements with \"contentinfo\" role do not have unique labels"
+        },
+        "aria_landmark_name_unique": {
+            "0": "Each landmark should have a unique 'aria-labelledby' or 'aria-label' or be nested in a different parent region",
+            "fail_label_not_unique": "Multiple elements with \"{0}\" landmarks within the same parent region are not distinguished from one another because they have the same \"{1}\" label"
+        },
+        "text_block_heading": {
+            "0": "Heading text should use a heading element or role",
+            "potential_heading": "Confirm this text '{0}' is used as a heading and if so, modify to use a heading element or role"
+        }
+    },
+    "summary": {
+        "counts": {
+            "ignored": 0,
+            "elements": 110,
+            "elementsViolation": 13,
+            "elementsViolationReview": 110,
+            "violation": 17,
+            "potentialviolation": 98,
+            "recommendation": 0,
+            "potentialrecommendation": 4,
+            "manual": 1,
+            "pass": 6965
+        },
+        "scanTime": 4251,
+        "ruleArchive": "Latest Deployment (latest)",
+        "policies": [
+            "IBM_Accessibility"
+        ],
+        "reportLevels": [
+            "violation",
+            "potentialviolation"
+        ],
+        "startScan": 1765565924832,
+        "URL": "http://localhost:8000/"
+    },
+    "scanID": "eba9f037-aab0-4267-af91-c8fe5bbf8573",
+    "toolID": "accessibility-checker-v4.0.9",
+    "label": "localhost_8000"
+}

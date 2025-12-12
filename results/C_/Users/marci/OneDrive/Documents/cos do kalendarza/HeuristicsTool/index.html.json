@@ -1,0 +1,160 @@
+{
+    "results": [
+        {
+            "ruleId": "input_label_visible",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/header[1]/nav[1]/ul[2]/li[1]/button[1]",
+                "aria": "/document[1]/banner[1]/navigation[1]/list[2]/listitem[1]/button[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "potential_no_label",
+            "message": "The input element does not have an associated visible label",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 712,
+                "top": 73,
+                "height": 38,
+                "width": 38
+            },
+            "snippet": "<button aria-label=\"Przełącz motyw\" id=\"theme-toggle\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/input_label_visible.html#%7B%22message%22%3A%22The%20input%20element%20does%20not%20have%20an%20associated%20visible%20label%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Prze%C5%82%C4%85cz%20motyw%5C%22%20id%3D%5C%22theme-toggle%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_no_label%22%2C%22ruleId%22%3A%22input_label_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "form_submit_button_exists",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]",
+                "aria": "/document[1]/main[1]/form[1]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Potential_1",
+            "message": "Verify the <form> element has a submit button or an image button",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 239,
+                "height": 72,
+                "width": 800
+            },
+            "snippet": "<form id=\"evaluation-form\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/form_submit_button_exists.html#%7B%22message%22%3A%22Verify%20the%20%3Cform%3E%20element%20has%20a%20submit%20button%20or%20an%20image%20button%22%2C%22snippet%22%3A%22%3Cform%20id%3D%5C%22evaluation-form%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22form_submit_button_exists%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/form[1]/div[1]/article[1]/p[1]",
+                "aria": "/document[1]/main[1]/form[1]/article[1]/paragraph[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text 'Błąd ładowania danych Błąd ładowania danych' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "Błąd ładowania danych Błąd ładowania danych"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 239,
+                "height": 27,
+                "width": 800
+            },
+            "snippet": "<p>",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'B%C5%82%C4%85d%20%C5%82adowania%20danych%20B%C5%82%C4%85d%20%C5%82adowania%20danych'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cp%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%22B%C5%82%C4%85d%20%C5%82adowania%20danych%20B%C5%82%C4%85d%20%C5%82adowania%20danych%22%5D%7D"
+        },
+        {
+            "ruleId": "text_block_heading",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/main[1]/article[1]/paragraph[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "potential_heading",
+            "message": "Confirm this text '0 / 0' is used as a heading and if so, modify to use a heading element or role",
+            "messageArgs": [
+                "0 / 0"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 56,
+                "top": 525,
+                "height": 36,
+                "width": 688
+            },
+            "snippet": "<p class=\"stat-large\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.09.03/doc/en-US/text_block_heading.html#%7B%22message%22%3A%22Confirm%20this%20text%20'0%20%2F%200'%20is%20used%20as%20a%20heading%20and%20if%20so%2C%20modify%20to%20use%20a%20heading%20element%20or%20role%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22stat-large%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22potential_heading%22%2C%22ruleId%22%3A%22text_block_heading%22%2C%22msgArgs%22%3A%5B%220%20%2F%200%22%5D%7D"
+        }
+    ],
+    "numExecuted": 386,
+    "ruleTime": 49,
+    "nls": {
+        "input_label_visible": {
+            "0": "An input element must have an associated visible label",
+            "potential_no_label": "The input element does not have an associated visible label"
+        },
+        "form_submit_button_exists": {
+            "0": "A <form> element should have a submit button or an image button",
+            "Potential_1": "Verify the <form> element has a submit button or an image button"
+        },
+        "text_block_heading": {
+            "0": "Heading text should use a heading element or role",
+            "potential_heading": "Confirm this text '{0}' is used as a heading and if so, modify to use a heading element or role"
+        }
+    },
+    "summary": {
+        "counts": {
+            "ignored": 0,
+            "elements": 9,
+            "elementsViolation": 0,
+            "elementsViolationReview": 5,
+            "violation": 0,
+            "potentialviolation": 4,
+            "recommendation": 0,
+            "potentialrecommendation": 4,
+            "manual": 1,
+            "pass": 377
+        },
+        "scanTime": 230,
+        "ruleArchive": "Latest Deployment (latest)",
+        "policies": [
+            "IBM_Accessibility"
+        ],
+        "reportLevels": [
+            "violation",
+            "potentialviolation"
+        ],
+        "startScan": 1765566557272,
+        "URL": "file:///C:/Users/marci/OneDrive/Documents/cos%20do%20kalendarza/HeuristicsTool/index.html"
+    },
+    "scanID": "22778178-2a48-4479-8513-a71206f787a5",
+    "toolID": "accessibility-checker-v4.0.9",
+    "label": "C_\\Users\\marci\\OneDrive\\Documents\\cos do kalendarza\\HeuristicsTool\\index.html"
+}
