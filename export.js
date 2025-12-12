@@ -65,12 +65,12 @@ function exportToEARL() {
             "WCAG21": "https://www.w3.org/TR/WCAG21/#"
         },
         "@type": "earl:Assertion",
-        "dct:title": "Heurystyczna Diagnoza Dostępności (HDA)",
+        "dct:title": "Heurystyczna Diagnoza Dostępności (HAD)",
         "dct:description": "Na podstawie 10 Heurystyk Deque Systems",
         "dct:date": new Date().toISOString(),
         "earl:assertedBy": {
             "@type": "earl:Software",
-            "dct:title": "HDA - Heurystyczna Diagnoza Dostępności"
+            "dct:title": "HAD - Heuristic Accessibility Diagnosis"
         },
         "earl:subject": {
             "@type": "earl:TestSubject",

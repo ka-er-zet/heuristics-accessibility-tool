@@ -7,6 +7,18 @@ header nav {
 
 header nav ul:first-child {
     flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav ul:first-child li:first-child {
+    list-style: none;
+}
+
+header nav ul:first-child img {
+    height: 3rem;
+    width: auto;
 }
 
 header hgroup {

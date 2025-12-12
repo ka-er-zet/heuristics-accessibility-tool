@@ -1,4 +1,4 @@
-# Heurystyczna Diagnoza Dostępności (HDA)
+# Heurystyczna Diagnoza Dostępności (HAD)
 
 Narzędzie do przeprowadzania heurystycznej diagnozy dostępności cyfrowej, oparte na 10 Heurystykach Dostępności Deque Systems.
 
@@ -97,7 +97,7 @@ Projekt jest otwarty na sugestie i poprawki. Jeśli chcesz wnieść swój wkład
 ## 📝 Changelog
 
 ### v1.0.0 (2025-12-12)
-- Pierwsza wersja narzędzia HDA (Heurystyczna Diagnoza Dostępności)
+- Pierwsza wersja narzędzia HAD (Heuristic Accessibility Diagnosis)
 - System oceny trzystopniowej
 - 10 heurystyk dostępności
 - Eksport do CSV i JSON (EARL)
