@@ -1,5 +1,16 @@
 /* Heuristics Evaluation Tool - Custom Styles */
 
+/* Main content width for better readability */
+main.container {
+    max-width: 1200px;
+}
+
+@media (min-width: 1400px) {
+    main.container {
+        max-width: 1000px;
+    }
+}
+
 /* Header */
 header nav {
     padding: 1rem 0;
