@@ -313,8 +313,13 @@ article {
 article header {
     padding: 1.5rem 1.5rem 1rem 1.5rem;
     margin: 0;
-    background: var(--pico-background-color);
-    border-bottom: 1px solid var(--pico-muted-border-color);
+    background: hsl(280, 30%, 96%);
+    border-bottom: 1px solid hsl(280, 20%, 88%);
+}
+
+[data-theme="dark"] article header {
+    background: hsl(280, 20%, 15%);
+    border-bottom: 1px solid hsl(280, 15%, 25%);
 }
 
 article>div {
