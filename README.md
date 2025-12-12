@@ -66,6 +66,7 @@ Narzędzie zostało zainspirowane pracą **Stefana Wajdy** opisaną w artykule:
 [10 Heurystyk Dostępności](https://lepszyweb.pl/blog2/10-heurystyk-dostepnosci)
 
 Heurystyki oparte są na metodologii **Deque Systems**.
+Pytania do nich przygotował Stefan Wajda. 
 
 ## 📄 Licencja
 
