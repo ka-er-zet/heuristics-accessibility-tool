@@ -1,15 +1,28 @@
 /* Heuristics Evaluation Tool - Custom Styles */
 
 /* Custom color scheme - purple theme matching logo */
-:root {
+:root:not([data-theme="dark"]),
+[data-theme="light"] {
     --pico-primary: hsl(280, 40%, 50%);
+    --pico-primary-background: hsl(280, 40%, 50%);
+    --pico-primary-border: hsl(280, 40%, 50%);
+    --pico-primary-underline: hsl(280, 40%, 50%);
     --pico-primary-hover: hsl(280, 40%, 45%);
+    --pico-primary-hover-background: hsl(280, 40%, 45%);
+    --pico-primary-hover-border: hsl(280, 40%, 45%);
+    --pico-primary-hover-underline: hsl(280, 40%, 45%);
     --pico-primary-focus: hsla(280, 40%, 50%, 0.125);
 }
 
 [data-theme="dark"] {
     --pico-primary: hsl(280, 45%, 65%);
+    --pico-primary-background: hsl(280, 45%, 65%);
+    --pico-primary-border: hsl(280, 45%, 65%);
+    --pico-primary-underline: hsl(280, 45%, 65%);
     --pico-primary-hover: hsl(280, 45%, 70%);
+    --pico-primary-hover-background: hsl(280, 45%, 70%);
+    --pico-primary-hover-border: hsl(280, 45%, 70%);
+    --pico-primary-hover-underline: hsl(280, 45%, 70%);
     --pico-primary-focus: hsla(280, 45%, 65%, 0.125);
 }
 
@@ -139,8 +152,12 @@ footer {
 
 #summary-section header h2 {
     margin: 0;
-    color: var(--pico-color);
+    color: hsl(280, 40%, 50%);
     font-size: 1.5rem;
+}
+
+[data-theme="dark"] #summary-section header h2 {
+    color: hsl(280, 45%, 65%);
 }
 
 /* Summary Grid */
