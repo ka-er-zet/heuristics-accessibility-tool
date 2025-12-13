@@ -1,6 +1,6 @@
 # Heurystyczna Diagnoza Dostępności (HAD)
 
-Narzędzie do przeprowadzania heurystycznej diagnozy dostępności cyfrowej, oparte na 10 Heurystykach Dostępności Deque Systems.
+Narzędzie do przeprowadzania heurystycznej diagnozy dostępności cyfrowej, oparte na 10 Heurystykach Dostępności Deque Systems, w opracowaniu Stefana Wajdy. 
 
 ## 📋 Opis
 
